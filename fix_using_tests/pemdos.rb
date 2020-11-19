@@ -1,7 +1,8 @@
 def snake_it_up(string)
   if string[0] == "s"
-    10 * "s" + string
+    string.insert(0,"ssssssssss")
+  puts string
   elsif
-    string
+   puts string
   end
 end
